@@ -1,40 +1,56 @@
-# Project Title
+# Projeto Automação Teste Funcional
 
-Projeto Automação Teste Funcional
 
-## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Objetivo
 
-### Prerequisites
+O projeto consiste na automação de teste funcional de um formulario Web, validando campos especificos para cadastrar as informações de um usuario.
 
-What things you need to install the software and how to install them
+### Teste de interface web
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+/src/mais/resources/componentes.html
 
 ```
-Give the example
+Exemplos
 ```
 
-And repeat
+### Dados que serão inseridos
+
+*Nome: Otto
+*Sobrenome: Caldas
+*Sexo: M
+*Comida Favorita: Carne
+*Escolaridade: Superior
+*Esporte que pratica: Futebol
+*Finalizar o cadastro.
 
 ```
-until finished
+Teste 1
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Efetuar o Cadastro.
 
-## Running the tests
+```
+Teste 2
+```
 
-Explain how to run the automated tests for this system
+Validaremos as regras de negocio exigidas que são:
+- Campo Nome é Obrigatório.
+- Campo Sobrenome é Obrigatório.
+- Campo Sexo precisa esta marcado.
+- Não pode validar como comida favorita Carne e Vegetariano simultaneamente, deve-se
+exibir a mensagem: "Tem certeza que voce eh vegetariano?"
+- Não pode validar como esporte alguma categoria de esporte e a pergunta "O que eh esporte?" 
+simultaneamente, deve-se exibir a mensagem "Voce pratica mesmo algum esporte?".
+
+## Configurações:
+
+Foi desenvolvido em Java.
+Dependencias: Junit e Selenium.
+IDE: Intellij IDE
+Nescessário baixar o Chromedriver. Foi usado o navegador Google Chrome Versão 86.0.4240.183 (Versão oficial) 64 bits
+Obs. Verifique a versão do seu navegador chrome e baixe o Chromedriver de acordo com a versão. Link para download do Chromedriver: [ChromeDriver(]http://chromedriver.chromium.org/downloads)
+Após baixar, recomendo que crie uma pasta com o nome Temp e dentro dela crie outra pasta com nome drivers no diretorio c.(Windows), ou em /home/usuario/drivers (Linux .deb)
 
 ### Break down into end to end tests
 
