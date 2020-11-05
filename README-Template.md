@@ -22,12 +22,12 @@ O projeto consiste na automação de teste funcional de um formulario Web, valid
 - Finalizar o cadastro.
 
 
-##Teste 1
+## Teste 1
 
 Efetuar o Cadastro.
 
 
-##Teste 2
+## Teste 2
 
 
 Validaremos as regras de negocio exigidas que são:
@@ -46,6 +46,6 @@ Dependencias: ```Junit``` e ```Selenium```.<p>
 IDE: ```Intellij IDE```<p>
 Nescessário baixar o Chromedriver. Foi usado o navegador Google Chrome Versão 86.0.4240.183 (Versão oficial) 64 bits<p>
 Obs. Verifique a versão do seu navegador chrome e baixe o Chromedriver de acordo a sua versão.
-Link para download do Chromedriver: [ChromeDriver(]http://chromedriver.chromium.org/downloads)<p>
+Link para download do Chromedriver: [ChromeDriver(] (http://chromedriver.chromium.org/downloads)<p>
 Após baixar, recomendo que crie uma pasta com o nome Temp e dentro dela crie outra pasta com nome drivers no diretorio c.(Windows), ou em /home/usuario/drivers (Linux .deb)
 
