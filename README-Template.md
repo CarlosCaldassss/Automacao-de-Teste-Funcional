@@ -13,11 +13,9 @@ O projeto consiste na automação de teste funcional de um formulario Web, valid
 
 ### Dados que serão inseridos
 
-Nome: Otto&
-&nbsp;
-Sobrenome: Caldas
-&nbsp;
-Sexo: M
+1. Nome: Otto
+2. Sobrenome: Caldas
+3. Sexo: M
 &nbsp;
 Comida Favorita: Carne&nbsp;
 Escolaridade: Superior&nbsp;
