@@ -13,24 +13,22 @@ O projeto consiste na automação de teste funcional de um formulario Web, valid
 
 ### Dados que serão inseridos
 
-1. Nome: Otto
-2. Sobrenome: Caldas
-3. Sexo: M
-&nbsp;
-Comida Favorita: Carne&nbsp;
-Escolaridade: Superior&nbsp;
-Esporte que pratica: Futebol&nbsp;
-Finalizar o cadastro.&nbsp;
+- Nome: Otto
+- Sobrenome: Caldas
+- Sexo: M
+- Comida Favorita: Carne
+- Escolaridade: Superior
+- Esporte que pratica: Futebol
+- Finalizar o cadastro.
 
-```
-Teste 1
-```
+
+##Teste 1
 
 Efetuar o Cadastro.
 
-```
-Teste 2
-```
+
+##Teste 2
+
 
 Validaremos as regras de negocio exigidas que são:
 - Campo Nome é Obrigatório.
@@ -43,61 +41,11 @@ simultaneamente, deve-se exibir a mensagem "Voce pratica mesmo algum esporte?".
 
 ## Configurações:
 
-Foi desenvolvido em ```Java```.
-Dependencias: ```Junit``` e ```Selenium```.
-IDE: ```Intellij IDE```
-Nescessário baixar o Chromedriver. Foi usado o navegador Google Chrome Versão 86.0.4240.183 (Versão oficial) 64 bits
+Foi desenvolvido em ```Java```. <p>
+Dependencias: ```Junit``` e ```Selenium```.<p>
+IDE: ```Intellij IDE```<p>
+Nescessário baixar o Chromedriver. Foi usado o navegador Google Chrome Versão 86.0.4240.183 (Versão oficial) 64 bits<p>
 Obs. Verifique a versão do seu navegador chrome e baixe o Chromedriver de acordo a sua versão.
-Link para download do Chromedriver: [ChromeDriver(]http://chromedriver.chromium.org/downloads)
+Link para download do Chromedriver: [ChromeDriver(]http://chromedriver.chromium.org/downloads)<p>
 Após baixar, recomendo que crie uma pasta com o nome Temp e dentro dela crie outra pasta com nome drivers no diretorio c.(Windows), ou em /home/usuario/drivers (Linux .deb)
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
