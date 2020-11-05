@@ -10,9 +10,6 @@ O projeto consiste na automação de teste funcional de um formulario Web, valid
 
 /src/mais/resources/componentes.html
 
-```
-Exemplos
-```
 
 ### Dados que serão inseridos
 
@@ -45,11 +42,12 @@ simultaneamente, deve-se exibir a mensagem "Voce pratica mesmo algum esporte?".
 
 ## Configurações:
 
-Foi desenvolvido em Java.
-Dependencias: Junit e Selenium.
-IDE: Intellij IDE
+Foi desenvolvido em ```Java```.
+Dependencias: ```Junit``` e ```Selenium```.
+IDE: ```Intellij IDE```
 Nescessário baixar o Chromedriver. Foi usado o navegador Google Chrome Versão 86.0.4240.183 (Versão oficial) 64 bits
-Obs. Verifique a versão do seu navegador chrome e baixe o Chromedriver de acordo com a versão. Link para download do Chromedriver: [ChromeDriver(]http://chromedriver.chromium.org/downloads)
+Obs. Verifique a versão do seu navegador chrome e baixe o Chromedriver de acordo a sua versão.
+Link para download do Chromedriver: [ChromeDriver(]http://chromedriver.chromium.org/downloads)
 Após baixar, recomendo que crie uma pasta com o nome Temp e dentro dela crie outra pasta com nome drivers no diretorio c.(Windows), ou em /home/usuario/drivers (Linux .deb)
 
 ### Break down into end to end tests
